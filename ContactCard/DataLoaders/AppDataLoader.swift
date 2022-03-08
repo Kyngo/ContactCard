@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DataLoader: ObservableObject {
+class AppDataLoader: ObservableObject {
     @Published var Content = [KyngoCoreData]()
     
     init() {

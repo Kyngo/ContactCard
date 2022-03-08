@@ -9,7 +9,8 @@ import SwiftUI
 import Network
 
 struct ContentView: View {
-    @ObservedObject var links = DataLoader()
+    @ObservedObject var links = AppDataLoader()
+    
     @State private var renderQR = false
     
     func openURL(url: String) {
@@ -44,12 +45,10 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
                     Button("QR vCard") {
-                        print("Pressed")
-                        // let img = GenerateQR(from: "Hello!")
                         renderQR.toggle()
                     }
                     .sheet(isPresented: $renderQR) {
-                        QRView()
+                        QRView(isPresented: $renderQR)
                     }
                     Button("Exit") {
                         exit(0)

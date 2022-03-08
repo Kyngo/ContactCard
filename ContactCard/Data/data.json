@@ -1,0 +1,40 @@
+[
+    {
+        "description": "Links",
+        "content": [
+            {
+                "name": "Website",
+                "url": "https://kyngo.net",
+                "comment": ""
+            }, {
+                "name": "Github",
+                "url": "https://github.com/Kyngo",
+                "comment": ""
+            }, {
+                "name": "LinkedIn",
+                "url": "https://linkedin.com/in/arnaumartin",
+                "comment": ""
+            }
+        ]
+    }, {
+        "description": "Currently working at...",
+        "content": [{
+            "name": "Omnios",
+            "url": "https://omnios.ai",
+            "comment": "since 2022"
+        }]
+    }, {
+        "description": "Former employers",
+        "content": [
+            {
+                "name": "Offing Web Solutions",
+                "url": "https://offing.es",
+                "comment": "2021-2022"
+            }, {
+                "name": "Spotlio AG",
+                "url": "https://spotlio.com",
+                "comment": "2017-2021"
+            }
+        ]
+    }
+]

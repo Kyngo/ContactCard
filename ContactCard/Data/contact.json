@@ -1,0 +1,22 @@
+{
+    "firstName": "Arnau",
+    "lastName": "Martín",
+    "gender": "M",
+    "birthdate": "1995-07-21",
+    "homeAddress": "Rambla Sant Jordi, 1, 08800 Vilanova i la Geltrú (ES)",
+    "workAddress": "Ronda de Sant Antoni, 36, 3 3, 08001 Barcelona (ES)",
+    "phone": "+34 684 001 208",
+    "workPhone": "",
+    "email": "kyngo@kyngo.net",
+    "workEmail": "amartin@omnios.ai",
+    "website": "https://kyngo.net",
+    "workWebsite": "https://omnios.ai",
+    "businessName": "Omnios",
+    "businessTitle": "Full Stack Developer",
+    "facebook": "",
+    "twitter": "https://twitter.com/kyngonet",
+    "instagram": "https://instagram.com/barbudoconboina",
+    "skype": "arnokun95",
+    "youtube": "",
+    "github": "Kyngo"
+}

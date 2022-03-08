@@ -12,10 +12,12 @@
 		DE07EFFB27CF69590087CCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE07EFFA27CF69590087CCDC /* Assets.xcassets */; };
 		DE07EFFE27CF69590087CCDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE07EFFD27CF69590087CCDC /* Preview Assets.xcassets */; };
 		DE07F02127CF7C2B0087CCDC /* KyngoCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */; };
-		DE07F02427CF80A70087CCDC /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F02327CF80A70087CCDC /* DataLoader.swift */; };
+		DE07F02427CF80A70087CCDC /* AppDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F02327CF80A70087CCDC /* AppDataLoader.swift */; };
 		DE07F02527CFBA470087CCDC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DE07F02227CF7D050087CCDC /* data.json */; };
 		DE3F607127D0A5510002EAB4 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F606F27D0A54D0002EAB4 /* CoreNFC.framework */; };
 		DE59199327D762310083E762 /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = DE59199227D762310083E762 /* contact.json */; };
+		DE59199627D765730083E762 /* vCardDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59199527D765730083E762 /* vCardDataLoader.swift */; };
+		DE59199927D765C20083E762 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59199827D765C20083E762 /* ContactData.swift */; };
 		DE62ACD427D74D4A0028BF60 /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */; };
 		DE62ACD627D74EF40028BF60 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62ACD527D74EF40028BF60 /* QRView.swift */; };
 /* End PBXBuildFile section */
@@ -28,12 +30,14 @@
 		DE07EFFD27CF69590087CCDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyngoCoreData.swift; sourceTree = "<group>"; };
 		DE07F02227CF7D050087CCDC /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		DE07F02327CF80A70087CCDC /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		DE07F02327CF80A70087CCDC /* AppDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataLoader.swift; sourceTree = "<group>"; };
 		DE3F606A27D0A46F0002EAB4 /* ContactCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContactCard.entitlements; sourceTree = "<group>"; };
 		DE3F606C27D0A46F0002EAB4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		DE3F606E27D0A49B0002EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE3F606F27D0A54D0002EAB4 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		DE59199227D762310083E762 /* contact.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		DE59199527D765730083E762 /* vCardDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vCardDataLoader.swift; sourceTree = "<group>"; };
+		DE59199827D765C20083E762 /* ContactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
 		DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
 		DE62ACD527D74EF40028BF60 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,18 +74,16 @@
 		DE07EFF527CF69570087CCDC /* ContactCard */ = {
 			isa = PBXGroup;
 			children = (
+				DE59199C27D76D7F0083E762 /* Views */,
+				DE59199B27D76D6F0083E762 /* Services */,
+				DE59199A27D766960083E762 /* Data */,
+				DE59199727D7659D0083E762 /* Models */,
+				DE59199427D7655A0083E762 /* DataLoaders */,
 				DE3F606E27D0A49B0002EAB4 /* Info.plist */,
 				DE3F606A27D0A46F0002EAB4 /* ContactCard.entitlements */,
-				DE07F02227CF7D050087CCDC /* data.json */,
 				DE07EFF627CF69570087CCDC /* ContactCardApp.swift */,
-				DE07EFF827CF69570087CCDC /* ContentView.swift */,
 				DE07EFFA27CF69590087CCDC /* Assets.xcassets */,
 				DE07EFFC27CF69590087CCDC /* Preview Content */,
-				DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */,
-				DE07F02327CF80A70087CCDC /* DataLoader.swift */,
-				DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */,
-				DE62ACD527D74EF40028BF60 /* QRView.swift */,
-				DE59199227D762310083E762 /* contact.json */,
 			);
 			path = ContactCard;
 			sourceTree = "<group>";
@@ -101,6 +103,50 @@
 				DE3F606C27D0A46F0002EAB4 /* ExternalAccessory.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE59199427D7655A0083E762 /* DataLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				DE07F02327CF80A70087CCDC /* AppDataLoader.swift */,
+				DE59199527D765730083E762 /* vCardDataLoader.swift */,
+			);
+			path = DataLoaders;
+			sourceTree = "<group>";
+		};
+		DE59199727D7659D0083E762 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */,
+				DE59199827D765C20083E762 /* ContactData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE59199A27D766960083E762 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE07F02227CF7D050087CCDC /* data.json */,
+				DE59199227D762310083E762 /* contact.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DE59199B27D76D6F0083E762 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE59199C27D76D7F0083E762 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE07EFF827CF69570087CCDC /* ContentView.swift */,
+				DE62ACD527D74EF40028BF60 /* QRView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE07F02427CF80A70087CCDC /* DataLoader.swift in Sources */,
+				DE07F02427CF80A70087CCDC /* AppDataLoader.swift in Sources */,
 				DE62ACD627D74EF40028BF60 /* QRView.swift in Sources */,
+				DE59199927D765C20083E762 /* ContactData.swift in Sources */,
 				DE07F02127CF7C2B0087CCDC /* KyngoCoreData.swift in Sources */,
+				DE59199627D765730083E762 /* vCardDataLoader.swift in Sources */,
 				DE62ACD427D74D4A0028BF60 /* QRGenerator.swift in Sources */,
 				DE07EFF927CF69570087CCDC /* ContentView.swift in Sources */,
 				DE07EFF727CF69570087CCDC /* ContactCardApp.swift in Sources */,
