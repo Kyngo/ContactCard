@@ -11,39 +11,31 @@
 		DE07EFF927CF69570087CCDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07EFF827CF69570087CCDC /* ContentView.swift */; };
 		DE07EFFB27CF69590087CCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE07EFFA27CF69590087CCDC /* Assets.xcassets */; };
 		DE07EFFE27CF69590087CCDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE07EFFD27CF69590087CCDC /* Preview Assets.xcassets */; };
-		DE07F00827CF695A0087CCDC /* ContactCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F00727CF695A0087CCDC /* ContactCardTests.swift */; };
-		DE07F01227CF695A0087CCDC /* ContactCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F01127CF695A0087CCDC /* ContactCardUITests.swift */; };
-		DE07F01427CF695A0087CCDC /* ContactCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F01327CF695A0087CCDC /* ContactCardUITestsLaunchTests.swift */; };
+		DE07F02127CF7C2B0087CCDC /* KyngoCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */; };
+		DE07F02427CF80A70087CCDC /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F02327CF80A70087CCDC /* DataLoader.swift */; };
+		DE07F02527CFBA470087CCDC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DE07F02227CF7D050087CCDC /* data.json */; };
+		DE3F607127D0A5510002EAB4 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F606F27D0A54D0002EAB4 /* CoreNFC.framework */; };
+		DE59199327D762310083E762 /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = DE59199227D762310083E762 /* contact.json */; };
+		DE62ACD427D74D4A0028BF60 /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */; };
+		DE62ACD627D74EF40028BF60 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62ACD527D74EF40028BF60 /* QRView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DE07F00427CF695A0087CCDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE07EFEB27CF69570087CCDC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE07EFF227CF69570087CCDC;
-			remoteInfo = ContactCard;
-		};
-		DE07F00E27CF695A0087CCDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE07EFEB27CF69570087CCDC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE07EFF227CF69570087CCDC;
-			remoteInfo = ContactCard;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DE07EFF327CF69570087CCDC /* ContactCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE07EFF327CF69570087CCDC /* Kyngo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kyngo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE07EFF627CF69570087CCDC /* ContactCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCardApp.swift; sourceTree = "<group>"; };
 		DE07EFF827CF69570087CCDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE07EFFA27CF69590087CCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE07EFFD27CF69590087CCDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DE07F00327CF695A0087CCDC /* ContactCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE07F00727CF695A0087CCDC /* ContactCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCardTests.swift; sourceTree = "<group>"; };
-		DE07F00D27CF695A0087CCDC /* ContactCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE07F01127CF695A0087CCDC /* ContactCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCardUITests.swift; sourceTree = "<group>"; };
-		DE07F01327CF695A0087CCDC /* ContactCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyngoCoreData.swift; sourceTree = "<group>"; };
+		DE07F02227CF7D050087CCDC /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DE07F02327CF80A70087CCDC /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		DE3F606A27D0A46F0002EAB4 /* ContactCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContactCard.entitlements; sourceTree = "<group>"; };
+		DE3F606C27D0A46F0002EAB4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		DE3F606E27D0A49B0002EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DE3F606F27D0A54D0002EAB4 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		DE59199227D762310083E762 /* contact.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
+		DE62ACD527D74EF40028BF60 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE07F00027CF695A0087CCDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE07F00A27CF695A0087CCDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DE3F607127D0A5510002EAB4 /* CoreNFC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,18 +54,15 @@
 			isa = PBXGroup;
 			children = (
 				DE07EFF527CF69570087CCDC /* ContactCard */,
-				DE07F00627CF695A0087CCDC /* ContactCardTests */,
-				DE07F01027CF695A0087CCDC /* ContactCardUITests */,
 				DE07EFF427CF69570087CCDC /* Products */,
+				DE3F606B27D0A46F0002EAB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DE07EFF427CF69570087CCDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE07EFF327CF69570087CCDC /* ContactCard.app */,
-				DE07F00327CF695A0087CCDC /* ContactCardTests.xctest */,
-				DE07F00D27CF695A0087CCDC /* ContactCardUITests.xctest */,
+				DE07EFF327CF69570087CCDC /* Kyngo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +70,18 @@
 		DE07EFF527CF69570087CCDC /* ContactCard */ = {
 			isa = PBXGroup;
 			children = (
+				DE3F606E27D0A49B0002EAB4 /* Info.plist */,
+				DE3F606A27D0A46F0002EAB4 /* ContactCard.entitlements */,
+				DE07F02227CF7D050087CCDC /* data.json */,
 				DE07EFF627CF69570087CCDC /* ContactCardApp.swift */,
 				DE07EFF827CF69570087CCDC /* ContentView.swift */,
 				DE07EFFA27CF69590087CCDC /* Assets.xcassets */,
 				DE07EFFC27CF69590087CCDC /* Preview Content */,
+				DE07F02027CF7C2B0087CCDC /* KyngoCoreData.swift */,
+				DE07F02327CF80A70087CCDC /* DataLoader.swift */,
+				DE62ACD327D74D4A0028BF60 /* QRGenerator.swift */,
+				DE62ACD527D74EF40028BF60 /* QRView.swift */,
+				DE59199227D762310083E762 /* contact.json */,
 			);
 			path = ContactCard;
 			sourceTree = "<group>";
@@ -110,21 +94,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DE07F00627CF695A0087CCDC /* ContactCardTests */ = {
+		DE3F606B27D0A46F0002EAB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE07F00727CF695A0087CCDC /* ContactCardTests.swift */,
+				DE3F606F27D0A54D0002EAB4 /* CoreNFC.framework */,
+				DE3F606C27D0A46F0002EAB4 /* ExternalAccessory.framework */,
 			);
-			path = ContactCardTests;
-			sourceTree = "<group>";
-		};
-		DE07F01027CF695A0087CCDC /* ContactCardUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE07F01127CF695A0087CCDC /* ContactCardUITests.swift */,
-				DE07F01327CF695A0087CCDC /* ContactCardUITestsLaunchTests.swift */,
-			);
-			path = ContactCardUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +119,11 @@
 			dependencies = (
 			);
 			name = ContactCard;
+			packageProductDependencies = (
+			);
 			productName = ContactCard;
-			productReference = DE07EFF327CF69570087CCDC /* ContactCard.app */;
+			productReference = DE07EFF327CF69570087CCDC /* Kyngo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DE07F00227CF695A0087CCDC /* ContactCardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE07F01A27CF695A0087CCDC /* Build configuration list for PBXNativeTarget "ContactCardTests" */;
-			buildPhases = (
-				DE07EFFF27CF695A0087CCDC /* Sources */,
-				DE07F00027CF695A0087CCDC /* Frameworks */,
-				DE07F00127CF695A0087CCDC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE07F00527CF695A0087CCDC /* PBXTargetDependency */,
-			);
-			name = ContactCardTests;
-			productName = ContactCardTests;
-			productReference = DE07F00327CF695A0087CCDC /* ContactCardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DE07F00C27CF695A0087CCDC /* ContactCardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE07F01D27CF695A0087CCDC /* Build configuration list for PBXNativeTarget "ContactCardUITests" */;
-			buildPhases = (
-				DE07F00927CF695A0087CCDC /* Sources */,
-				DE07F00A27CF695A0087CCDC /* Frameworks */,
-				DE07F00B27CF695A0087CCDC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE07F00F27CF695A0087CCDC /* PBXTargetDependency */,
-			);
-			name = ContactCardUITests;
-			productName = ContactCardUITests;
-			productReference = DE07F00D27CF695A0087CCDC /* ContactCardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +138,6 @@
 					DE07EFF227CF69570087CCDC = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					DE07F00227CF695A0087CCDC = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = DE07EFF227CF69570087CCDC;
-					};
-					DE07F00C27CF695A0087CCDC = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = DE07EFF227CF69570087CCDC;
-					};
 				};
 			};
 			buildConfigurationList = DE07EFEE27CF69570087CCDC /* Build configuration list for PBXProject "ContactCard" */;
@@ -215,13 +149,13 @@
 				Base,
 			);
 			mainGroup = DE07EFEA27CF69570087CCDC;
+			packageReferences = (
+			);
 			productRefGroup = DE07EFF427CF69570087CCDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DE07EFF227CF69570087CCDC /* ContactCard */,
-				DE07F00227CF695A0087CCDC /* ContactCardTests */,
-				DE07F00C27CF695A0087CCDC /* ContactCardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,22 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE59199327D762310083E762 /* contact.json in Resources */,
+				DE07F02527CFBA470087CCDC /* data.json in Resources */,
 				DE07EFFE27CF69590087CCDC /* Preview Assets.xcassets in Resources */,
 				DE07EFFB27CF69590087CCDC /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE07F00127CF695A0087CCDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE07F00B27CF695A0087CCDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,42 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE07F02427CF80A70087CCDC /* DataLoader.swift in Sources */,
+				DE62ACD627D74EF40028BF60 /* QRView.swift in Sources */,
+				DE07F02127CF7C2B0087CCDC /* KyngoCoreData.swift in Sources */,
+				DE62ACD427D74D4A0028BF60 /* QRGenerator.swift in Sources */,
 				DE07EFF927CF69570087CCDC /* ContentView.swift in Sources */,
 				DE07EFF727CF69570087CCDC /* ContactCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE07EFFF27CF695A0087CCDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE07F00827CF695A0087CCDC /* ContactCardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE07F00927CF695A0087CCDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE07F01227CF695A0087CCDC /* ContactCardUITests.swift in Sources */,
-				DE07F01427CF695A0087CCDC /* ContactCardUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE07F00527CF695A0087CCDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE07EFF227CF69570087CCDC /* ContactCard */;
-			targetProxy = DE07F00427CF695A0087CCDC /* PBXContainerItemProxy */;
-		};
-		DE07F00F27CF695A0087CCDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE07EFF227CF69570087CCDC /* ContactCard */;
-			targetProxy = DE07F00E27CF695A0087CCDC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DE07F01527CF695A0087CCDC /* Debug */ = {
@@ -416,26 +312,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContactCard/ContactCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ContactCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J63BMTW78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kyngo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.ContactCard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Kyngo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,98 +346,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContactCard/ContactCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ContactCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J63BMTW78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kyngo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.ContactCard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Kyngo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DE07F01B27CF695A0087CCDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.ContactCardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactCard.app/ContactCard";
-			};
-			name = Debug;
-		};
-		DE07F01C27CF695A0087CCDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.ContactCardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactCard.app/ContactCard";
-			};
-			name = Release;
-		};
-		DE07F01E27CF695A0087CCDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.ContactCardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ContactCard;
-			};
-			name = Debug;
-		};
-		DE07F01F27CF695A0087CCDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.ContactCardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ContactCard;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -556,24 +392,6 @@
 			buildConfigurations = (
 				DE07F01827CF695A0087CCDC /* Debug */,
 				DE07F01927CF695A0087CCDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE07F01A27CF695A0087CCDC /* Build configuration list for PBXNativeTarget "ContactCardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE07F01B27CF695A0087CCDC /* Debug */,
-				DE07F01C27CF695A0087CCDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE07F01D27CF695A0087CCDC /* Build configuration list for PBXNativeTarget "ContactCardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE07F01E27CF695A0087CCDC /* Debug */,
-				DE07F01F27CF695A0087CCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
